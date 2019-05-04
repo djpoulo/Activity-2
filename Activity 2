@@ -1,0 +1,91 @@
+// This code will show the solution for activity no. 2
+
+#include <iostream>
+
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    int Day, Month, Year;
+    
+    
+    do 
+    {
+    cout<<"Enter Day of Birth :" <<endl;
+    cin>> Day;
+    cout<<"Enter Month of Birth :" <<endl;
+    cin>> Month;
+    cout<<"Enter Year of Birth:" <<endl;
+    cin>> Year;
+    }
+    
+    
+    while(0);
+    {
+    if (Day<=0 || Day>=32){
+    cout<<"Invalid input, enter the number of day again: " <<endl;
+    cin>>Day;    
+    }
+    if (Month<=0 || Month>=13){
+    cout<<"Invalid input, enter the number of month again: " <<endl;
+    cin>>Month;
+    }
+    
+
+    if (Month == 1 && Day <= 31 && Day >=1)
+    {
+		cout << "January " << Day << ", " << Year;
+	}
+	if (Month == 2 && Day <= 29 && Day >=1)
+	{
+		cout << "February " << Day << ", " << Year;
+	
+	}
+	if (Month == 3 && Day <= 31 && Day >=1)
+	{
+		cout << "March " << Day << ", " << Year;
+	}
+	if (Month == 4 && Day <= 30 && Day >=1)
+	{
+		cout << "April " << Day << ", " << Year;
+	}
+	if (Month == 5 && Day <= 31 && Day >=1)
+	{
+	    cout << "May " << Day << ", " << Year;
+	}
+	if (Month == 6 && Day <= 30 && Day >=1)
+	{
+	    cout << "June " << Day << ", " << Year;
+	}
+	if (Month == 7 && Day <= 31 && Day >=1)
+	{
+	    cout << "July " << Day << ", " << Year;
+	}
+	if (Month == 8 && Day <= 31 && Day >=1)
+	{
+	    cout << "August " << Day << ", " << Year;
+	}
+	if (Month == 9 && Day <= 30 && Day >=1)
+	{
+	    cout << "September " << Day << ", " << Year;
+	}
+	if (Month == 10 && Day <= 31 && Day >=1)
+	{
+	    cout << "October " << Day << ", " << Year;
+	}
+	if (Month == 11 && Day <= 30 && Day >=1)
+	{
+	    cout << "November " << Day << ", " << Year;	
+	}
+	if (Month == 12 && Day <= 31 && Day >=1)
+	{
+	    cout << "December " << Day << ", " << Year;	
+	}
+
+
+}
+ _getch();  
+ return 0;
+}
